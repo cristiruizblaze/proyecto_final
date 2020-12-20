@@ -6,6 +6,7 @@
 \usepackage{float}
 \usepackage{graphicx}
 \usepackage{siunitx}
+\usepackage{chemscheme}
 
 % AUTHORS
 \author{Cristina Ruiz}
@@ -48,15 +49,13 @@
 	\\Herein we join computational and experimental efforts to understand and optimise processes catalysed by alkali–metal amides.10 Following theoretical guidance, we demonstrate how deaggregation agents (DAs) can efficiently accelerate hydrosilylation of carbonyl compounds in the presence of readily available lithium amides (Scheme 1) under very mild conditions such as room temperature and very low catalyst loading.
 	\\
 	
-	\renewcommand{\figurename}{Scheme}
-	
-	\begin{figure}[h]
+	\begin{scheme}[h]
 		\includegraphics[width=0.8\textwidth]{figures/Síntesis.PNG}
 		\centering
 		\caption{Hydrosilylation of ketones catalysed by the combination of	Li-amides with deaggregation agents}
 		\centering
 		\label{Scheme1}
-	\end{figure}	
+	\end{scheme}	
 	
 	% RESULTS AND DISCUSSION
 	
@@ -71,10 +70,10 @@
 		\end{minipage}
 		
 		\begin{minipage}{0.6\textwidth} 
-			\begin{figure}[H]
+			\begin{scheme}[H]
 				\includegraphics[width=\textwidth]{figures/Energía.PNG}
-				\caption{\label{Figure 1} Computed (a) pre-activation step and catalytic cycle, and (b) reaction profile for the hydride-mediated Li-catalysed hydrosilylation of acetophenone. All Gibbs energies are given in THF in kcal mol-1.}
-			\end{figure}
+				\caption{\label{Scheme2} Computed (a) pre-activation step and catalytic cycle, and (b) reaction profile for the hydride-mediated Li-catalysed hydrosilylation of acetophenone. All Gibbs energies are given in THF in kcal mol-1.}
+			\end{scheme}
 		\end{minipage}
 	\end{center}
 	
@@ -89,12 +88,12 @@
 		\label{Figure1}
 	\end{figure}	
 	
-	\begin{figure}[H]
+	\begin{scheme}[H]
 		\includegraphics[width=0.4\textwidth]{figures/Cycle.PNG}		
 		\centering
 		\caption{Computed (a) pre-activation step and (b) catalytic cycle the alkoxy-silicate-mediated Li-catalysed hydrosilylation of acetophenone. All Gibbs energies are given in THF in kcal mol-1.}
 		\label{Scheme 3}
-	\end{figure}	
+	\end{scheme}	
 	
 	Overall, the computational results suggest a rate-determining activation step to generate the catalytically active species 5, where a great part of the energy toll is related to the initial formation of a monomeric species 3 (Scheme 2a). We then envisage that using deaggregation agents (DAs)17 to displace the equilibrium towards monomeric species would entail a significant	increase in catalytic activity. DAs could also avoid oligomerization of other species such as 5 or 6. In a more general	way, the presence of DAs may favour or stabilise Li species	with lower levels of aggregations. 
 	
@@ -106,23 +105,23 @@
 	are stabilised in the presence of HMPA. These results suggest a	better catalytic performance, either by facilitating the deaggregation of Li species (i.e., 17.8 kcal mol-1 from 1 to 3 vs. 12.6 kcal mol-1 from 1-DA to 3-DA) or by increasing the lifetime of key intermediates in solution (i.e., via the formation of 5-DA at 1.3 kcal mol-1). It is important to mention that the higher dielectric constant of HMPA, compared to THF, can have an impact on the computed energies when using continuum solvation models. Assuming that the amount of HMPA added to the solution is rather small (see later experiments),
 	we expect similar energies for pure THF and HMPA-THF mixtures at our current level of theory.
 	
-	\begin{figure}[H]
+	\begin{scheme}[H]
 		\includegraphics[width=0.6\textwidth]{figures/CompHMPA.PNG}		
 		\centering
 		\caption{Computed key intermediates in the presence of HMPA. All Gibbs energies are given in THF in kcal mol-1.}
 		\label{Scheme4}
-	\end{figure}
+	\end{scheme}
 	
 	To prove this hypothesis on Li-catalysed (0.25\% mol) hydrosilylations, we conducted a series of reactions catalysed by
 	commercial amides (lithium diisopropylamide or LDA, lithium bis(trimethylsilyl) amide or LiHMDS, and lithium tetramethylpiperidide or LiTMP) as well as by the anthraquinoid lithium	hydrazone LiAQ,9 each of one in the presence (1.5\% mol, sixfold with respect to the catalyst) and the absence of DAs (Scheme 5 and Table 1). We firstly select HMPA as a representative example due to its commonly usage for this purpose.22 These catalytic runs were monitored via 1H NMR spectroscopy, which allowed us to detect initial rates, culmination steps and conversions (Fig. S1-7). The catalytic outcome remained the same when increasing the excess of HMPA up to 12-fold or 32-fold.
 	
-	\begin{figure}[H]
+	\begin{scheme}[H]
 		\includegraphics[width=0.6\textwidth]{figures/Reaction.PNG}		
 		\centering
 		\caption{Reaction conditions: acetophenone (1.0 mmol), (EtO)2MeSiH (1.1 mmol), Li-amide precursor (0.25 mol\%), deaggregation
 			agent (none or 1.5 mol\%), THF-d8 (0.5 mL), 294 K.}
 		\label{Scheme5}
-	\end{figure}
+	\end{scheme}
 	
 	\begin{table}
 		\caption{Turnover frequency (TOF) values obtained at different conversions for the hydrosilylation of acetophenone. LDA, LiHMDS, LiTMP, and LiAQ as catalysts and (EtO)2MeSiH as reducing agent}
@@ -156,9 +155,58 @@
 	\end{table}
 	
 	
-	As shown by the turnover frequency (TOF) values calculated at two different conversion steps (Table 1) and the kinetic profiles (Fig. S1–7), the reaction rates increased in the presence of catalytic amounts of DA. We observed an enhanced performance	of 4–5 times at 30\% conversion and 8–9 times at 95\% conversion. Neither the catalytic runs in the absence nor the	presence of DA evidenced significant induction periods in their kinetic profiles. In addition, control experiments aimed
-	to rule out the potential catalytic role of the neutral deaggregation agent alone were performed, resulting in absence of
+	As shown by the turnover frequency (TOF) values calculated at two different conversion steps (Table 1) and the kinetic profiles (Fig. S1–7), the reaction rates increased in the presence of catalytic amounts of DA. We observed an enhanced performance	of 4–5 times at 30\% conversion and 8–9 times at 95\% conversion. Neither the catalytic runs in the absence nor the	presence of DA evidenced significant induction periods in their kinetic profiles. In addition, control experiments aimed to rule out the potential catalytic role of the neutral deaggregation agent alone were performed, resulting in absence of
 	reaction.
 	
+	\begin{figure}[H]
+		\includegraphics[width=0.6\textwidth]{figures/Bars.PNG}		
+		\centering
+		\caption{Catalytic hydrosilylation times (in minutes) required to reach 90\% conversion in absence (green bars) and presence (blue bars) of HMPA. All of them used (EtO)2MeSiH as silane at 294 K.}
+		\label{Figure2}
+	\end{figure}
+
+	Fig. 2 shows the reaction times required to reach 90\% conversion on each catalytic run with (blue) and without (green)	HMPA. In absence of DA, all tested Li-amides showed a similar	behaviour with excellent conversions in times of about 3 h.
+	\\The presence of DA evidenced an extraordinary boost, reaching excellent conversions in less than 30 min. In the case of	LDA, the reaction is complete within just 13 min. The accelerating effect of HMPA has been previously noted in s-block20 and lanthanide23 metal catalysis. For instance, Spielmann et al.20a	described a 2.3 acceleration factor in the hydrogenation of
+	alkenes with hydrogen after adding a 7.5\% of HMPA with	respect to the main solvent THF. Buch et al.20b described that
+	the presence of 3 equiv. of HMPA in the coordination sphere of the calcium catalyst favoured the conversion in the dehydrogenative	silylation of amines and alkynes, thus proving that HMPA played an essential role in these catalytic systems. This synthetic	procedure reproduced an earlier one described by Takaki and	co-workers using ytterbium and samarium analogues bearing HMPA as coordination ligands, although the silylation did not take place when the complexes were prepared in the absence of HMPA.23a,c Similar complexes have also demonstrated their activity in the catalysed hydrosilylation of olefins23b and in the hydrophosphination of conjugated dyenes.23d
+	\\As mentioned before, the proposed mechanism involves the	coordination of Li to the alkoxy substituents of the silane	(Scheme 2a). The existence of such intermediates was proven by mixing the LiAQ catalyst and the silane in a J-Young NMR tube. Interestingly, some of the signals in the 1H NMR spectrum of LiAQ were broadened suggesting that averaged signals were detected coming from a fast equilibrium between LiAQ-1 and LiAQ-2 (Scheme 6).
+	
+	\begin{scheme}[H]
+	\includegraphics[width=0.8\textwidth]{figures/Equilibria.PNG}		
+	\centering
+	\caption{Equilibria of LiAQ with silane and HMPA in THF solution unravelled by NMR spectroscopy within the reaction time. Relative Gibbs energies of proposed species are reported in THF in kcal mol-1.}
+	\label{Scheme6}
+	\end{scheme}
+
+	DFT predicts a Gibbs energy difference of only 1.4 kcal mol-1, in line with the equilibrium observed at the NMR time scale. The signals that underwent significant broadening corresponded to protons in the anthraquinone moiety, while those belonging to the pyridine remained unaltered.9 As expected, when acetophenone is added to this reaction mixture, quantitative formation of product is eventually observed. When HMPA (1.5\% mol) is added to the former reaction mixture, the 1H NMR aromatic pattern (Fig. S9) remains unaltered whatmakes reasonable that a similar mononuclear species may predominate	in THF solution. The 31P NMR spectrum (Fig. S11) shows a relatively broad singlet (W1/2 = 33.8 Hz) located at 24.0 ppm, that is only down-field shifted 0.5 ppm with respect to free HMPA ($\delta$P = 23.5 ppm). Interestingly, the 7Li NMR spectrum at 294 K (Fig. S10) showed two broad signals of W1/2 of ca. 160 Hz each of one located at 1.8 and 1.4 ppm in a ratio 2 : 1, respectively. These data suggest that HMPA coordinates to Li inducing a slower equilibrium which is observable in the	7Li NMR time scale. DFT supports such claim with the exergonic formation of LiAQ-3-5 (Scheme 6). To expand the methodology to other types of DAs, we run the catalytic hydrosilylation reactions in the presence of DMPU, TMEDA, and PMDTA (entries 9-11 in Table 1). Again, the reactions rates increased 2 times in the first period of the	reaction (at ca. 30\% conversion), and with a non-apparent enhancement until the end of the process. That is, whereas the effect of HMPA was maintained during the whole reaction, the behaviour of DMPU, TMEDA, and PMDTA is apparently reduced within the reaction time. This effect may be due to the stronger Lewis base donor ability of HMPA compared to the other additives as well as its high dipolar character.24,25 Same results were found when increasing the concentration of these DAs up to 100 mol\% (Table S1). Current efforts are focused on the design and evaluation of others HMPA-related DAs with less toxicity.26
+	
+	
+% CONCLUSIONS
+	\section{Conclusions}
+	In this work, we have proposed reaction mechanisms for the Li-catalysed hydrosilylation of ketones using computational methods. Based on these results, we have tested and demonstrated
+	experimentally the role of deaggregation agents in catalysis through equilibrium displacement towards active species with lower levels of aggregation, particularly in the presence of
+	HMPA where the effect on reaction kinetics is remarkable. We are currently evaluating the impact of these results in other Li-catalysed processes.
+
+% EXPERIMENTAL SECTION
+	\section{Experimental section}
+	{\bf General procedures of laboratory}
+	
+	All procedures involving moisture-sensitive components were	performed under an inert atmosphere of dinitrogen, using standard Schlenk techniques or a glovebox. Acetophenone was purified and dried via standard procedures.  Diethoxymethylsilane, hexamethylphosphoramide (HMPA), lithium hexamethyldisylazide (LiHMDS) and lithium tetramethylpiperidine (LiTMP) were purchased from commercial sources and used without further purification. Pentamethyldiethylenetriamine (PMDTA), tetramethylethyl-enediamine (TMEDA) and N,N'-dimethylpropyleneurea (DMPU) were distilled from CaH2 or KOH under reduced pressure. THF was dried in a Solvent Purification System (Innovative Technologies) prior to use. Perdeuterated THF (THF-d8) was purchased from Eurisotop and dried over activated 4 \si{\angstrom} molecular sieves before use. Lithium diisopropylamide (LDA) was prepared from diisopropylamine and n-BuLi
+	following standard procedures. Complex LiAQ was prepared as previously described.9 NMR measurements were carried out on
+	a Bruker Avance III 500 spectrometer equipped with a TBI (1H/31P/ BB) probehead.
+	
+	{\bf Experimental procedure for the catalysed hydrosilylation
+	reactions monitored by NMR}
+
+	In a glovebox, a stock solution of the catalyst was prepared by	dissolving the corresponding lithium amide (0.0025 mmol) in 1 mL of THF-d8. Then, a NMR sample tube equipped with a J. Young cap was charged with 0.3 mL of THF-d8, (EtO)2MeSiH
+	(1.1 mmol, 182 $\mu$L), acetophenone (1 mmol, 118 $\mu$L), and	finally 0.1 mL of the stock solution of lithium amide catalyst (0.0025 mmol). The tube was sealed, shaken manually to	ensure homogeneity and then placed inside the NMR spectrometer, were the sample stayed during the whole set of measurements. For the experiments containing HMPA (0.015 mmol, 2.61 $\mu$L), it was added to the tube right before the catalyst.
+	
+	{\bf Experimental procedure for the preparation of a sample based on stoichiometric amounts of silane, HMPA and catalyst}
+	
+	In a J. Young NMR tube, complex LiAQ (0.012 mmol, 9.6 mg) was dissolved in 0.8 mL of THF-d8 and then (EtO)2MeSiH (0.024 mmol, 4 $\mu$L) was added. After 2 hours, a broadening of the signals corresponding to the anthraquinone moiety was
+	observed. Then the J. Young tube was taken into the glovebox and HMPA (0.096 mmol, 16.7 $\mu$L) was added. The NMR monitoring
+	was continued for 15 hours without significant changes being observed.
+	
+	{\bf Computational details}
 	
 \end{document}
