@@ -72,7 +72,7 @@
 		\begin{minipage}{0.6\textwidth} 
 			\begin{scheme}[H]
 				\includegraphics[width=\textwidth]{figures/Energía.PNG}
-				\caption{\label{Scheme2} Computed (a) pre-activation step and catalytic cycle, and (b) reaction profile for the hydride-mediated Li-catalysed hydrosilylation of acetophenone. All Gibbs energies are given in THF in kcal mol-1.}
+				\caption{\label{Scheme2} Computed pre-activation step and catalytic cycle, and reaction profile for the hydride-mediated Li-catalysed hydrosilylation of acetophenone. All Gibbs energies are given in THF in kcal mol-1.}
 			\end{scheme}
 		\end{minipage}
 	\end{center}
@@ -106,7 +106,7 @@
 	we expect similar energies for pure THF and HMPA-THF mixtures at our current level of theory.
 	
 	\begin{scheme}[H]
-		\includegraphics[width=0.6\textwidth]{figures/CompHMPA.PNG}		
+		\includegraphics[width=0.7\textwidth]{figures/CompHMPA.PNG}		
 		\centering
 		\caption{Computed key intermediates in the presence of HMPA. All Gibbs energies are given in THF in kcal mol-1.}
 		\label{Scheme4}
@@ -204,9 +204,12 @@
 	{\bf Experimental procedure for the preparation of a sample based on stoichiometric amounts of silane, HMPA and catalyst}
 	
 	In a J. Young NMR tube, complex LiAQ (0.012 mmol, 9.6 mg) was dissolved in 0.8 mL of THF-d8 and then (EtO)2MeSiH (0.024 mmol, 4 $\mu$L) was added. After 2 hours, a broadening of the signals corresponding to the anthraquinone moiety was
-	observed. Then the J. Young tube was taken into the glovebox and HMPA (0.096 mmol, 16.7 $\mu$L) was added. The NMR monitoring
-	was continued for 15 hours without significant changes being observed.
+	observed. Then the J. Young tube was taken into the glovebox and HMPA (0.096 mmol, 16.7 $\mu$L) was added. The NMR monitoring was continued for 15 hours without significant changes being observed.
 	
 	{\bf Computational details}
+	
+	All calculations were carried out at density functional theory (DFT) level using the M06-2X density functional27 as
+	implemented in Gaussian 09.28 Numerical integrations were performed with an ultrafine grid. To model lithium species in
+	solution,29 geometry optimizations were performed in THF solution using the continuum SMD approach30 and the 6-31G** basis sets for all atoms.31 Diffuse functions were added for O atoms.32 The natures of all stationary points were confirmed by computation of vibrational frequencies. Transition	state structures were verified to connect with the corresponding reactants and products by following normal modes associated with their imaginary frequencies. Gibbs energies in	THF were calculated by adding Gibbs energy contributions to	single-point calculations using a larger 6-311++G** basis set.32,33 A factor of RT·ln(24.46) was included to take into account the 1 atm to 1 M standard-state Gibbs energy change	(12.33 M for THF). All energies correspond to Gibbs energies at 298 K in THF in kcal mol-1. All inputs and outputs can be consulted and visualised in the open-access ioChem-BD repository34 under the following link.35
 	
 \end{document}
