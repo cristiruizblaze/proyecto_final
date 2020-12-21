@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.10)  20 DEC 2020 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.10)  21 DEC 2020 12:11
 entering extended mode
-**./proyecto_final.tex
-(proyecto_final.tex
+**./proyecto-final.tex
+(proyecto-final.tex
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03>
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/achemso\achemso.cls
@@ -411,8 +411,8 @@ Package chemscheme Warning: The chemscheme package should not
 (chemscheme)                be used with the achemso class:
 (chemscheme)                loading chemscheme will abort on input line 39.
 
-) (proyecto_final.aux)
-\openout1 = `proyecto_final.aux'.
+) (proyecto-final.aux)
+\openout1 = `proyecto-final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -428,7 +428,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
-\openout3 = `acs-proyecto_final.bib'.
+\openout3 = `acs-proyecto-final.bib'.
 
 
 *geometry* driver: auto-detecting
@@ -521,37 +521,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
-<figures/Síntesis.PNG, id=14, 755.82375pt x 159.59625pt>
+<figures/Síntesis.PNG, id=15, 755.82375pt x 159.59625pt>
 File: figures/Síntesis.PNG Graphic file (type png)
 <use figures/Síntesis.PNG>
 Package pdftex.def Info: figures/Síntesis.PNG  used on input line 53.
 (pdftex.def)             Requested size: 364.19667pt x 76.90242pt.
 [2 <./figures/Síntesis.PNG>]
-<figures/Ciclo.PNG, id=20, 606.76688pt x 686.565pt>
+<figures/Ciclo.PNG, id=21, 606.76688pt x 686.565pt>
 File: figures/Ciclo.PNG Graphic file (type png)
 <use figures/Ciclo.PNG>
 Package pdftex.def Info: figures/Ciclo.PNG  used on input line 68.
 (pdftex.def)             Requested size: 273.14923pt x 309.0771pt.
  [3]
-<figures/Energía.PNG, id=24, 663.22781pt x 386.19281pt>
+<figures/Energía.PNG, id=25, 663.22781pt x 386.19281pt>
 File: figures/Energía.PNG Graphic file (type png)
 <use figures/Energía.PNG>
 Package pdftex.def Info: figures/Energía.PNG  used on input line 74.
 (pdftex.def)             Requested size: 273.14923pt x 159.0531pt.
  [4 <./figures/Ciclo.PNG> <./figures/Energía.PNG>]
-<figures/Nucleophilic attack.PNG, id=30, 734.745pt x 513.41812pt>
+<figures/Nucleophilic attack.PNG, id=31, 734.745pt x 513.41812pt>
 File: figures/Nucleophilic attack.PNG Graphic file (type png)
 <use figures/Nucleophilic attack.PNG>
 Package pdftex.def Info: figures/Nucleophilic attack.PNG  used on input line 85
 .
 (pdftex.def)             Requested size: 227.62206pt x 159.05612pt.
-<figures/Cycle.PNG, id=31, 516.42938pt x 588.69937pt>
+<figures/Cycle.PNG, id=32, 516.42938pt x 588.69937pt>
 File: figures/Cycle.PNG Graphic file (type png)
 <use figures/Cycle.PNG>
 Package pdftex.def Info: figures/Cycle.PNG  used on input line 92.
 (pdftex.def)             Requested size: 182.09486pt x 207.57494pt.
  [5 <./figures/Nucleophilic attack.PNG> <./figures/Cycle.PNG>]
-<figures/CompHMPA.PNG, id=37, 733.23938pt x 600.74437pt>
+<figures/CompHMPA.PNG, id=38, 733.23938pt x 600.74437pt>
 File: figures/CompHMPA.PNG Graphic file (type png)
 <use figures/CompHMPA.PNG>
 Package pdftex.def Info: figures/CompHMPA.PNG  used on input line 109.
@@ -562,19 +562,19 @@ Overfull \hbox (7.68028pt too wide) in paragraph at lines 115--117
 m-ethylpiperi-dide or LiTMP)
  []
 
-<figures/Reaction.PNG, id=41, 632.3625pt x 692.5875pt>
+<figures/Reaction.PNG, id=42, 632.3625pt x 692.5875pt>
 File: figures/Reaction.PNG Graphic file (type png)
 <use figures/Reaction.PNG>
 Package pdftex.def Info: figures/Reaction.PNG  used on input line 119.
 (pdftex.def)             Requested size: 273.14923pt x 299.17009pt.
 [7 <./figures/CompHMPA.PNG>] [8 <./figures/Reaction.PNG>]
-<figures/Bars.PNG, id=49, 693.34032pt x 383.93437pt>
+<figures/Bars.PNG, id=50, 693.34032pt x 383.93437pt>
 File: figures/Bars.PNG Graphic file (type png)
 <use figures/Bars.PNG>
 Package pdftex.def Info: figures/Bars.PNG  used on input line 162.
 (pdftex.def)             Requested size: 273.14923pt x 151.25697pt.
  [9 <./figures/Bars.PNG>]
-<figures/Equilibria.PNG, id=53, 737.00343pt x 206.27063pt>
+<figures/Equilibria.PNG, id=54, 737.00343pt x 206.27063pt>
 File: figures/Equilibria.PNG Graphic file (type png)
 <use figures/Equilibria.PNG>
 Package pdftex.def Info: figures/Equilibria.PNG  used on input line 175.
@@ -585,31 +585,46 @@ Overfull \hbox (3.02635pt too wide) in paragraph at lines 194--197
 is-tilled from CaH2
  []
 
-[11] [12] [13] (proyecto_final.aux) ) 
+[11] [12] [13] (proyecto-final.bbl
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 5
+6.
+
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+
+[14]) [15] (proyecto-final.aux) ) 
 Here is how much of TeX's memory you used:
- 9614 strings out of 479799
- 190026 string characters out of 2868772
- 489881 words of memory out of 3000000
- 26462 multiletter control sequences out of 15000+200000
+ 9683 strings out of 479799
+ 191512 string characters out of 2868772
+ 491445 words of memory out of 3000000
+ 26525 multiletter control sequences out of 15000+200000
  545583 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,10n,128p,2067b,1094s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Usuario\AppData\Local\MiKTeX\fo
-nts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Usuario/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Us
-uario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmss10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Usuario/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Usuario/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usua
-rio/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on proyecto_final.pdf (13 pages, 928053 bytes).
+ 81i,11n,128p,2067b,1094s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/
+pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Usuario/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuari
+o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/U
+sers/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Usuario/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Us
+uario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb>
+Output written on proyecto-final.pdf (15 pages, 974721 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

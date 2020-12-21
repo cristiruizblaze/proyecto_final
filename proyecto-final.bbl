@@ -1,0 +1,109 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{10}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Magnus(1999)]{Magnus1999}
+Magnus,~P.~D. {The Chemistry of Organic Silicon Compounds, Vol. 2, Parts 1, 2,
+  and 3 Edited by Z. Rappoport and Y. Apeloig. Wiley {\&} Son, Inc.: New York.
+  1998. xxiii + 2758 pp. {\$}1650.00. ISBN 0-471-96757-2.} \emph{Journal of the
+  American Chemical Society} \textbf{1999}, \emph{121}, 1762--1762\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nishiyama and Furuta(2007)Nishiyama, and Furuta]{Nishiyama2007}
+Nishiyama,~H.; Furuta,~A. {An iron-catalysed hydrosilylation of ketones}.
+  \emph{Chemical Communications} \textbf{2007}, 760--762\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tondreau \latin{et~al.}(2008)Tondreau, Lobkovsky, and
+  Chirik]{Tondreau2008}
+Tondreau,~A.~M.; Lobkovsky,~E.; Chirik,~P.~J. {Bis(imino)pyridine iron
+  complexes for aldehyde and ketone hydrosilylation}. \emph{Organic Letters}
+  \textbf{2008}, \emph{10}, 2789--2792\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yang and Tilley(2010)Yang, and Tilley]{Yang2010}
+Yang,~J.; Tilley,~T.~D. {Efficient hydrosilylation of carbonyl compounds with
+  the simple amide catalyst [Fe{\{}N(SiMe3)2{\}}2]}. \emph{Angewandte Chemie -
+  International Edition} \textbf{2010}, \emph{49}, 10186--10188\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Raya-Bar{\'{o}}n \latin{et~al.}(2019)Raya-Bar{\'{o}}n,
+  O{\~{n}}a-Burgos, and Fern{\'{a}}ndez]{Raya-Baron2019}
+Raya-Bar{\'{o}}n,~{\'{A}}.; O{\~{n}}a-Burgos,~P.; Fern{\'{a}}ndez,~I.
+  {Iron-Catalyzed Homogeneous Hydrosilylation of Ketones and Aldehydes:
+  Advances and Mechanistic Perspective}. 2019;
+  \url{https://pubs.acs.org/doi/abs/10.1021/acscatal.9b00201}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Corriu(1990)]{Corriu1990}
+Corriu,~R.~J. {Hypervalent species of silicon: structure and reactivity}.
+  \emph{Journal of Organometallic Chemistry} \textbf{1990}, \emph{400},
+  81--106\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hosomi \latin{et~al.}(1986)Hosomi, Hayashida, Kohra, and
+  Tominaga]{Hosomi1986}
+Hosomi,~A.; Hayashida,~H.; Kohra,~S.; Tominaga,~Y. {Pentaco-ordinate silicon
+  compounds in synthesis: Chemo- and stereo-selective reduction of carbonyl
+  compounds using trialkoxy-substituted silanes and alkali metal alkoxides}.
+  \emph{Journal of the Chemical Society, Chemical Communications}
+  \textbf{1986}, 1411--1412\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Addis \latin{et~al.}(2010)Addis, Zhou, Das, Junge, Kosslick, Harloff,
+  Lund, Schulz, and Beller]{Addis2010}
+Addis,~D.; Zhou,~S.; Das,~S.; Junge,~K.; Kosslick,~H.; Harloff,~J.; Lund,~H.;
+  Schulz,~A.; Beller,~M. {Hydrosilylation of Ketones: From Metal-Organic
+  Frameworks to Simple Base Catalysts}. \emph{Chemistry - An Asian Journal}
+  \textbf{2010}, \emph{5}, 2341--2345\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Revunova and Nikonov(2014)Revunova, and Nikonov]{Revunova2014}
+Revunova,~K.; Nikonov,~G.~I. {Base-catalyzed hydrosilylation of ketones and
+  esters and insight into the mechanism}. \emph{Chemistry - A European Journal}
+  \textbf{2014}, \emph{20}, 839--845\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

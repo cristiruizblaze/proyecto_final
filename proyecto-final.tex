@@ -40,13 +40,13 @@
 	% INTRODUCTION
 	
 	\section{Introduction}
-	The reduction of carbonyl groups into alcohols is of wide interest in synthetic chemistry and therefore, constant efforts are	put into developing new efficient methodologies and perfecting the existing ones. Catalytic hydrosilylation1 has emerged as a convenient method as it operates under mild conditions and	combines an exceptional reducing capability with a high selectivity that can be finely tuned via catalyst design.
+	The reduction of carbonyl groups into alcohols is of wide interest in synthetic chemistry and therefore, constant efforts are	put into developing new efficient methodologies and perfecting the existing ones. Catalytic hydrosilylation\cite{Magnus1999} has emerged as a convenient method as it operates under mild conditions and combines an exceptional reducing capability with a high selectivity that can be finely tuned via catalyst design.
 	
 	% STATE OF THE ART
 	
 	\section{State of the art}
-	Many Earth-abundant first-row transition metals, specially iron,2,3 have been tested in catalytic hydrosilylation of carbonyl compounds, as they are usually more environmentally-friendly and less toxic than their second- and third-row counterparts. Alkali metal salts have also been explored as alternative catalysts, initially by the groups of Corriu4 and Hosomi,5 and later by Beller6 and Nikonov,7 among others. Such compounds have been employed to promote hydrosilylation due to their basic character via formation of a pentacoordinated hydridosilicate,6–8 usually neglecting any relevant role of the alkali cation in the reaction mechanism. We recently reported	the hydrosilylation of carbonyl compounds catalysed by lithiated hydrazones.9 However, full understanding at atomic level of detail is still needed for the rational design of catalysts and reaction conditions.
-	\\Herein we join computational and experimental efforts to understand and optimise processes catalysed by alkali–metal amides.10 Following theoretical guidance, we demonstrate how deaggregation agents (DAs) can efficiently accelerate hydrosilylation of carbonyl compounds in the presence of readily available lithium amides (Scheme 1) under very mild conditions such as room temperature and very low catalyst loading.
+	Many Earth-abundant first-row transition metals, specially iron,\cite{Nishiyama2007,Tondreau2008,Yang2010,Raya-Baron2019} have been tested in catalytic hydrosilylation of carbonyl compounds, as they are usually more environmentally-friendly and less toxic than their second- and third-row counterparts. Alkali metal salts have also been explored as alternative catalysts, initially by the groups of Corriu\cite{Corriu1990} and Hosomi,\cite{Hosomi1986} and later by Beller\cite{Addis2010} and Nikonov\cite{Revunova2014} among others. Such compounds have been employed to promote hydrosilylation due to their basic character via formation of a pentacoordinated hydridosilicate, usually neglecting any relevant role of the alkali cation in the reaction mechanism. We recently reported	the hydrosilylation of carbonyl compounds catalysed by lithiated hydrazones. However, full understanding at atomic level of detail is still needed for the rational design of catalysts and reaction conditions.
+	\\Herein we join computational and experimental efforts to understand and optimise processes catalysed by alkali–metal amides. Following theoretical guidance, we demonstrate how deaggregation agents (DAs) can efficiently accelerate hydrosilylation of carbonyl compounds in the presence of readily available lithium amides (Scheme 1) under very mild conditions such as room temperature and very low catalyst loading.
 	\\
 	
 	\begin{scheme}[h]
@@ -60,7 +60,7 @@
 	% RESULTS AND DISCUSSION
 	
 	\section{Results and discussion}
-	First, we computed the reaction mechanism for acetophenone and (MeO)2MeSiH using lithium diisopropylamide (LDA) as catalyst.9 The proposed reaction mechanism entails an activation step (Scheme 2a) prior to the catalytic cycle (Scheme 2b). We start from the LDA dimer 1 in THF solution. Dissociation of 111 via coordination of carbonyl and silane reactants yields the monomeric intermediates 2 and 3 at 17.8 kcal mol-1. The Si-H bond is then activated via amide nucleophilic attack,12 giving rise to a putative Li–hydride 5 as in Fe analogues 13,14 via -25 kcal mol-1. Although such transient intermediate would be very difficult to detect experimentally, similar species have been proposed in related literature. 15,16 Insertion of acetophenone into the Li-H bond generates an alkoxide 6 which activates a silane molecule 8 through a pentacoordinated hydridosilicate. Subsequent	hydride transfer releases the product and regenerates the Li-H species 5. According to the reaction profile (Scheme 2c), all relative activation Gibbs energies within the cycle are rather small, in the range of 7-10 kcal mol-1, with an overall value of 9.5 kcal mol-1 above 6. The most energy-demanding steps concern the initial dissociation of 1 to monomer 3 via 17.8 kcal mol-1 followed by the formation of hydride 5 via 25.4 kcal mol-1.
+	First, we computed the reaction mechanism for acetophenone and (MeO)2MeSiH using lithium diisopropylamide (LDA) as catalyst. The proposed reaction mechanism entails an activation step (Scheme 2a) prior to the catalytic cycle (Scheme 2b). We start from the LDA dimer 1 in THF solution. Dissociation of 1 via coordination of carbonyl and silane reactants yields the monomeric intermediates 2 and 3 at 17.8 kcal mol-1. The Si-H bond is then activated via amide nucleophilic attack, giving rise to a putative Li–hydride 5 as in Fe analogues  via -25 kcal mol-1. Although such transient intermediate would be very difficult to detect experimentally, similar species have been proposed in related literature. Insertion of acetophenone into the Li-H bond generates an alkoxide 6 which activates a silane molecule 8 through a pentacoordinated hydridosilicate. Subsequent	hydride transfer releases the product and regenerates the Li-H species 5. According to the reaction profile (Scheme 2c), all relative activation Gibbs energies within the cycle are rather small, in the range of 7-10 kcal mol-1, with an overall value of 9.5 kcal mol-1 above 6. The most energy-demanding steps concern the initial dissociation of 1 to monomer 3 via 17.8 kcal mol-1 followed by the formation of hydride 5 via 25.4 kcal mol-1.
 	
 	\begin{center}
 		\begin{minipage}{0.6\textwidth} 
@@ -210,6 +210,32 @@
 	
 	All calculations were carried out at density functional theory (DFT) level using the M06-2X density functional27 as
 	implemented in Gaussian 09.28 Numerical integrations were performed with an ultrafine grid. To model lithium species in
-	solution,29 geometry optimizations were performed in THF solution using the continuum SMD approach30 and the 6-31G** basis sets for all atoms.31 Diffuse functions were added for O atoms.32 The natures of all stationary points were confirmed by computation of vibrational frequencies. Transition	state structures were verified to connect with the corresponding reactants and products by following normal modes associated with their imaginary frequencies. Gibbs energies in	THF were calculated by adding Gibbs energy contributions to	single-point calculations using a larger 6-311++G** basis set.32,33 A factor of RT·ln(24.46) was included to take into account the 1 atm to 1 M standard-state Gibbs energy change	(12.33 M for THF). All energies correspond to Gibbs energies at 298 K in THF in kcal mol-1. All inputs and outputs can be consulted and visualised in the open-access ioChem-BD repository34 under the following link.35
+	solution, geometry optimizations were performed in THF solution using the continuum SMD approach and the 6-31G** basis sets for all atoms. Diffuse functions were added for O atoms. The natures of all stationary points were confirmed by computation of vibrational frequencies. Transition	state structures were verified to connect with the corresponding reactants and products by following normal modes associated with their imaginary frequencies. Gibbs energies in	THF were calculated by adding Gibbs energy contributions to	single-point calculations using a larger 6-311++G** basis set. A factor of RT·ln(24.46) was included to take into account the 1 atm to 1 M standard-state Gibbs energy change	(12.33 M for THF). All energies correspond to Gibbs energies at 298 K in THF in kcal mol-1.
 	
+	Modern DFT methods result from the Hohenberg-Kohn theorem
+		\begin{enumerate}
+		\item The external potential $V_{ext}$, and hence total energy is a unique functional of the electron density $\rho(r)$
+				\begin{align*}
+					{\mathrm {Energy}} = \dfrac{\langle\Psi\mid\hat{H}\mid\Psi\rangle}{\langle\Psi\mid\Psi\rangle} \equiv E[\rho]
+				\end{align*}
+		\item The ground state energy can be obtained variationally, the density that minimizes the total energy is the exact ground state density
+				\begin{align*}
+					E[\rho] > E[\rho_0], {\mathrm if }\rho \ne \rho_0
+				\end{align*}
+		\end{enumerate}
+	If density is known, then the total energy is:
+		\begin{align*}
+			E[\rho]=T[\rho]+V_{ne}[\rho] + J[\rho] + E_{nn} + E_{xc}[\rho] 
+		\end{align*}
+		where 
+		\begin{align*}
+			E_{nn}[\rho] = \sum_{A>B}\dfrac{Z_AZ_B}{R_{AB}}  \hspace{1cm}&\hspace{1cm}
+			V_{ne}[\rho] = \int\rho(r)V_{ext}(r)dr \\
+			J[\rho] = \dfrac{1}{2}&\int\dfrac{\rho(r_1)\rho(r_2)}{r_{12}}dr_1dr_2
+		\end{align*}
+
+% BIBLIOGRAFÍA	
+	\bibliography{proyecto-final}
+
+		
 \end{document}
