@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.10)  21 DEC 2020 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.10)  21 DEC 2020 12:16
 entering extended mode
 **./proyecto-final.tex
 (proyecto-final.tex
@@ -521,7 +521,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
-<figures/Síntesis.PNG, id=15, 755.82375pt x 159.59625pt>
+<figures/Síntesis.PNG, id=14, 755.82375pt x 159.59625pt>
 File: figures/Síntesis.PNG Graphic file (type png)
 <use figures/Síntesis.PNG>
 Package pdftex.def Info: figures/Síntesis.PNG  used on input line 53.
@@ -597,10 +597,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 [14]) [15] (proyecto-final.aux) ) 
 Here is how much of TeX's memory you used:
- 9683 strings out of 479799
- 191512 string characters out of 2868772
- 491445 words of memory out of 3000000
- 26525 multiletter control sequences out of 15000+200000
+ 9684 strings out of 479799
+ 191530 string characters out of 2868772
+ 490445 words of memory out of 3000000
+ 26526 multiletter control sequences out of 15000+200000
  545583 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,11n,128p,2067b,1094s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -622,7 +622,7 @@ uario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 /cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb>
-Output written on proyecto-final.pdf (15 pages, 974721 bytes).
+Output written on proyecto-final.pdf (15 pages, 978287 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
